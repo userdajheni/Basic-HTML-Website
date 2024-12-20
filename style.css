@@ -66,3 +66,24 @@ header span {
     font-size: 18px;
     color: #666;
 }
+
+/* conteudo main */
+.layout {
+    width: 100%;
+    display: grid;
+
+    grid:
+      "projects work education" 1fr
+      "projects opensource education" 1fr
+      / 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+    
+    padding: 50px 0;
+}
+  
+.projects { grid-area: projects; }
+.work { grid-area: work; }
+.education { grid-area: education; }
+.opensource { grid-area: opensource; }
