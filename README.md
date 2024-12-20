@@ -52,6 +52,5 @@ Abaixo está o mockup usado como base para a estrutura do site:
 
 ## 📎 **Como Visualizar o Projeto?**  
 
-1. Clone este repositório:  
    ```bash
-   link do git pages
+  https://userdajheni.github.io/Basic-HTML-Website/
