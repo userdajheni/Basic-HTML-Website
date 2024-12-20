@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000; /* Simula a borda visível no design */
+}
+
+nav {
+    width: 100%; /* ocupa todo o espaço e isso fez com que a logo ficasse na esquerda e os links da direita */
+    justify-content: space-around;
+    align-items: center; /*centraliza tudo */
+    display: flex; /* a logo e os links ficam lado a lado */
+}
+
+nav a img {
+    max-width: 70%; /* tamanho máximo da logo */
+}
+
+nav ul {
+    /* gap: 20px; */
+    list-style-type: none; /* tira as bolinhas */
+    display: flex; /* os links ficam lado a lado */
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* tira o sublinhado */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li:not(:last-child)::after {
+    content: " /"; /* Adiciona a barra depois de cada item, exceto o último */
+    margin: 0 10px; /* Ajusta o espaçamento entre a barra e o texto */
+}
+
+
+/* Título e subtítulo */
+header > div {
+    text-align: center;
+    margin: 100px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+header span {
+    font-size: 18px;
+    color: #666;
+}
