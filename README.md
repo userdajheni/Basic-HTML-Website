@@ -49,8 +49,15 @@ Abaixo está o mockup usado como base para a estrutura do site:
 4. 🚀 Aprender a usar **meta tags SEO** para melhorar o ranqueamento do site.  
 
 ---
+---
 
-## 📎 **Como Visualizar o Projeto?**  
+## 📎 **Links**  
+🔗 [Acesse o projeto no Roadmap.sh](https://roadmap.sh/projects/basic-html-website)  
+\
+🔗 [Visualize o meu projeto](https://userdajheni.github.io/Basic-HTML-Website/)  
 
-   ```bash
-  https://userdajheni.github.io/Basic-HTML-Website/
+\
+\
+\
+🌟 **Gostou do projeto? Deixe uma ⭐ no repositório!**  
+📌 **Contribuições são bem-vindas!**
