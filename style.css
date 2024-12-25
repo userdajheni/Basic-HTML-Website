@@ -103,3 +103,34 @@ a {
 }
 
 p, ul { padding: 10px;}
+
+/* reviews */
+section {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.container-review {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-review {
+    width: 300px;   
+    padding: 25px;
+    border-radius: 40px;
+    border: solid 1px black;
+}
+
+.author {
+    color: #9e9d9d;
+}
+
+/* footer */
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
