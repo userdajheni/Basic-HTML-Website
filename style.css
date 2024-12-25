@@ -68,22 +68,38 @@ header span {
 }
 
 /* conteudo main */
-.layout {
-    width: 100%;
+.container {
     display: grid;
 
-    grid:
-      "projects work education" 1fr
-      "projects opensource education" 1fr
-      / 1fr 1fr 1fr;
+    grid-template-areas:
+        "projects workexperience education"
+        "projects opensourcework education"
+    ;
 
-    justify-items: center;
-    align-items: center;
-    
-    padding: 50px 0;
+    grid-template-columns: repeat(3, 1fr);
 }
-  
-.projects { grid-area: projects; }
-.work { grid-area: work; }
-.education { grid-area: education; }
-.opensource { grid-area: opensource; }
+
+.projects { grid-area: projects;}
+.education { grid-area: education;}
+.workexperience { grid-area: workexperience;}
+.opensourcework { grid-area: opensourcework;}
+
+.projects,
+.workexperience,
+.opensourcework,
+.education {
+    padding: 30px;
+    text-align: left; /* Alinhamento do texto */
+    border: 1px solid black; /* Para imitar o contorno da imagem */
+}
+
+h2 {
+    margin-bottom: 20px; /* Consistência no espaçamento */
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+p, ul { padding: 10px;}
